@@ -1,0 +1,6 @@
+[flake8]
+max-line-length = 110
+ignore = E203,E231,E731,W504,I001,W503
+exclude = .svn,CVS,.bzr,.hg,.git,__pycache__,.eggs,*.egg,node_modules
+per-file-ignores =
+    .flake8:E501
